@@ -11,4 +11,9 @@
 
 ### Todo for improvement
 
-* ...
+* Custom boards
+* Custom chess icons
+* Live chat
+* Game mods
+* Auth
+* Online gaming
