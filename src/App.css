@@ -26,10 +26,10 @@
     align-items: center;
 }
 
-.cell-black {
+.black {
     background-color: rgb(31, 128, 128);
 }
 
-.cell-white {
+.white {
     background-color: rgb(211, 146, 81);
 }

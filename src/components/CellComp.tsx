@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { Cell } from '../models/Cell';
 
-const CellComp = () => {
+interface CellPorps {
+    cell: Cell
+}
+
+const CellComp:React.FC<CellPorps> = ({cell}) => {
     return (
         <div
-            className='cell'
+            className={['cell', cell.color].join(' ')}
         >
-
+            {cell.figure}
         </div>
     )
 }
