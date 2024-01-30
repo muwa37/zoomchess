@@ -4,7 +4,7 @@ import BoardComp from './components/BoardComp';
 import { Board } from './models/Board';
 
 const App = () => {
-  const [board, setBoard] = useState(new Board);
+  const [board, setBoard] = useState(new Board());
 
   useEffect(() => {
     restart()
@@ -12,7 +12,8 @@ const App = () => {
 
   function restart() {
     const newBoard = new Board();
-    newBoard.initCells()
+    newBoard.initCells();
+    newBoard.addFigures();
     setBoard(newBoard);
   }
 
