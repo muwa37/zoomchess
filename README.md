@@ -4,16 +4,31 @@
 
 ## Technologies
 
-* JS
 * TS
 * React
 * Tailwind
+* ...
 
 ### Todo for improvement
 
+#### Logic
+* Pawn to Queen/Rook/Bishop/Knight
+* En passant pawn move
+* Kings move availability
+* Castling
+* Fix timer
+* Check and checkmate conditions
+* Moves log
+* Game mods
+
+#### UI
+
+* Rewrite styles with Tailwind
 * Custom boards
 * Custom chess icons
+
+#### Backend
+
 * Live chat
-* Game mods
 * Auth
 * Online gaming
